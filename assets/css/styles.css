@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #0c0f11;
+    
+}
+header{
+    width: 1px / 1px;
+    height: 80px;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span {
+    /* color: rgb(241, 241, 70); */
+    color: #eeee8b;
+    font-weight: 700;
+}
+h1 {
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+h2 {
+    color: #f0f0f0;
+    margin: 10px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.list{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 60%;
+    margin: 30px;
+    padding: 35px;
+    font-style: bold;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    
+}
+ul li {
+    padding: 10px;
+}
+ul li p {
+    color: #eeee8b;
+}
+ul li hr {
+    
+    
+    margin: 5px;
+}
+a {
+    color:#f0f0f0; 
+ 
+}
+
+footer {
+    background: #000;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+ 
+}
+footer h4 {
+    color: crimson;
+    font-weight: 300;
+}
+footer h4 span {
+    color: #f0f0f0;
+    
+}
+footer p span {
+    color: #f0f0f0;
+}
